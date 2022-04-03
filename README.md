@@ -2,10 +2,10 @@ Slides de présentation d'un REX sur Uxn dans Uxn, pour OCTO Technology.
 
 ### Prérequis
 
-Avertissement : ce n'est pas un PDF ni un PPT, pour voir ces slides il faut git,
-SDL2 avec la lib de dev, et un compilateur, afin de compiler la VM Uxn.
+La lib SDL2.
 
-Pour télécharger les sources et compiler la VM sur un OS moderne :
+Des versions précompilées 64 bits de la VM pour Linux, Windows et macOS sont
+dispos ici (~ 50 ko):
 
 - https://git.sr.ht/~rabbits/uxn ~ d64600e7
 
@@ -21,7 +21,12 @@ Charger la rom d'adelie dans la VM, avec comme argument le chemin relatif vers l
 $ uxnemu -s 2 adelie.rom slides
 ```
 
-### Sur des OS plus anciens
+### Sources et versions de la VM pour OS plus anciens
+
+Pour compiler la VM Uxn à partir des sources, il faudra git, la lib SDL2 en
+version dev, et un compilateur C.
+
+- https://git.sr.ht/~rabbits/uxn
 
 La VM sous DOS :
 
