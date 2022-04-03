@@ -7,7 +7,7 @@ La lib SDL2.
 Des versions précompilées 64 bits de la VM pour Linux, Windows et macOS sont
 dispos ici (~ 50 ko):
 
-- https://git.sr.ht/~rabbits/uxn ~ d64600e7
+- https://100r.co/site/uxn.html
 
 Le programme qui lit et affiche les slides est la rom "adelie.rom" (24 ko).
 
@@ -26,7 +26,7 @@ $ uxnemu -s 2 adelie.rom slides
 Pour compiler la VM Uxn à partir des sources, il faudra git, la lib SDL2 en
 version dev, et un compilateur C.
 
-- https://git.sr.ht/~rabbits/uxn
+- https://git.sr.ht/~rabbits/uxn ~ d64600e7
 
 La VM sous DOS :
 
@@ -39,3 +39,8 @@ La VM pour Windows NT / 2000 / XP / Vista (avec versions précompilées)
 La VM pour X11, sans SDL2 :
 
 - https://git.sr.ht/~rabbits/uxn11
+
+### Liens de la présentation
+
+- Uxn Design ~ <https://100r.co/site/uxn_design.html>
+- Uxn implemetation ~ <https://git.sr.ht/~rabbits/uxn/tree/main/item/src/uxn.c>
