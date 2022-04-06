@@ -23,20 +23,28 @@ $ uxnemu -s 2 adelie.rom slides
 
 ### Sources et versions de la VM pour OS plus anciens
 
-Pour compiler la VM Uxn à partir des sources, il faudra git, la lib SDL2 en
-version dev, et un compilateur C.
+Certains vieux OS ont déjà des versions précompilées.
+
+Le nombre de portages de cette VM sur des OS / systèmes différents d'âges
+variés montre la facilité de l'implémenter, c'est assez rare pour un système
+qui inclut des images et du son.
+
+#### Sources de la VM de référence
+
+Pour compiler la VM Uxn de référence à partir des sources, il faudra
+git, la lib SDL2 en version dev, et un compilateur C.
 
 - https://git.sr.ht/~rabbits/uxn ~ d64600e7
 
-La VM sous DOS :
+#### La VM sous DOS
 
 - https://git.sr.ht/~rabbits/uxn-vga
 
-La VM pour Windows NT / 2000 / XP / Vista (avec versions précompilées)
+#### La VM pour Windows NT / 2000 / XP / Vista (avec versions précompilées)
 
 - https://github.com/randrew/uxn32
 
-La VM pour X11, sans SDL2 :
+#### La VM pour X11, sans SDL2
 
 - https://git.sr.ht/~rabbits/uxn11
 
